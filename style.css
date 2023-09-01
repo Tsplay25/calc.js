@@ -8,7 +8,8 @@
     --bg-color: #212529;
     --border-color: #666;
     --font-color: #f1f5f9;
-    --primary-color: #6200ee;
+    --button-font-color: #212529;
+    --primary-color: #bb86fc;
     --error-color: #b00020;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 #keys button {
-    color: var(--font-color);
+    color: var(--button-font-color);
     cursor: pointer;
     font-size: 1.5rem;
     padding: 1rem;
