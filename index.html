@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
 </head>
 
-<body>
-    <header>
+<body class="dark-theme">
+    <header class="flex align-center justify-between" >
         <h1>Calc.js</h1>
         <button id="switchTheme">Switch theme Dark/Light</button>
     </header>
@@ -39,13 +42,13 @@
             <button id="equal">=</button>
         </div>
         <section class="flex align-center justify-between">
-            <button id="copyToClipboard">Copy</button>
+            <button id="copy">Copy</button>
             <input type="text" id="result" disabled>
         </section>
     </main>
 
     <footer>
-        <p>Desenvolvido com &hearts; por Talles Alves e OneBitCode</p>
+        <p>Desenvolvido por Talles Alves e OneBitCode</p>
     </footer>
     <script src="index.js"></script>
 </body>
